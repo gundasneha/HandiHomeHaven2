@@ -46,7 +46,7 @@ html{
     padding: 1vw;
     text-indent: 3vw;
     letter-spacing: 0.1vw;
-    word-spacing: 0.2vw;
+    /* word-spacing: 0.2vw; */
     line-height: 3vh;
 }
 
