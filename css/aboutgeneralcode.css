@@ -43,7 +43,7 @@ html{
     flex-direction: column;
     color: white;
     text-align: justify;
-    padding: 1vw;
+    /* padding: 1vw; */
     /* text-indent: 3vw; */
     /* letter-spacing: 0.1vw; */
     /* word-spacing: 0.2vw; */
