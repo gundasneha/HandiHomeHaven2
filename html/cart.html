@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Handi Home Haven</title>
+    <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <ul  class="mainlist1">
+            <li class="li1"><a href="../html/home.html">Home</a></li>
+            <li class="li1"><a href="../html/about.html">About</a></li>
+            <li class="li1"><a href="../html/cart.html">Cart</a></li>
+            <ul class="sublist">
+                <li class="li2">1</li>
+            </ul>
+        </ul>
+        <ul class="mainlist2">
+            <li class="li3"><a href="../index.html">Logout</a></li>
+        </ul>
+  </nav>
+
+  <div class="cartContainer">
+        <div class="cartImageContainer">
+            <img class="cartImage" src="../asset/images/image1.jpg" alt="">
+        </div>
+        <div class="cartInfoContainer">
+            <div class="productName">
+                <span class="pName">Item 1</span>
+                <div class="pNamesec2">
+                    <div class="incDec">
+                        <input type="button" class="inps" value="-">
+                        <input class="inps" value="1" readonly>
+                        <input type="button" class="inps" value="+">
+                    </div>
+                    <i class="fa-solid fa-trash"></i>
+                </div>
+            </div>
+            <div class="productDetails">
+                <h1p class="pdel">Item:<span>Photoframe</span></h1p>
+                <h1p class="pdel">A.Price<span>150</span>Rs</h1p>
+                <h1p class="pdel">D.Price<span>100</span>Rs</h1p>
+            </div>
+        </div>
+  </div>
+
+  <div class="cartContainer">
+    <div class="cartImageContainer">
+        <img class="cartImage" src="../asset/images/image2.jpg" alt="">
+    </div>
+    <div class="cartInfoContainer">
+        <div class="productName">
+            <span class="pName">Item 2</span>
+            <div class="pNamesec2">
+                <div class="incDec">
+                    <input type="button" class="inps" value="-">
+                    <input class="inps" value="1" readonly>
+                    <input type="button" class="inps" value="+">
+                </div>
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+        <div class="productDetails">
+            <h1p class="pdel">Item:<span>Basket</span></h1p>
+            <h1p class="pdel">A.Price<span>150</span>Rs</h1p>
+            <h1p class="pdel">D.Price<span>100</span>Rs</h1p>
+        </div>
+    </div>
+</div>
+
+    <div class="couponCode">
+        couponCode
+        <input type="text" id="couponcodeinp" placeholder="Coupon Code" minlength="6" maxlength="6">
+    </div>
+    <div id="checkoutContainer">
+        <div id="checkoutInfo">
+            <h1 class="checkOutText">No of Products<span class="impNumber">2</span></h1>
+            <h1 class="checkOutText">Total Cost:<span class="impNumber">500</span>Rs</h1>
+        </div>
+        <input type="button" value="Pay" class="payButton">
+    </div>
+
+    <footer>
+        <ul class="footerList">
+            <li class="fli">
+                <a href="#" class="fli">
+                    <i class="fa-brands fa-facebook"></i>
+                    Facebook
+                </a>
+            </li>
+            <li class="fli">
+                <a href="#" class="fli">
+                    <i class="fa-brands fa-instagram"></i>
+                    Instagram  
+                </a>
+            </li>
+            <li class="fli">
+                <a href="#" class="fli">
+                    <i class="fa-brands fa-twitter"></i>
+                    Twitter
+                </a>
+            </li>
+        </ul>
+        <span class="copy">
+            <i class="fa-solid fa-copyright"></i>
+            Copyright belongs to Handi Home Haven
+        </span>
+    </footer>
+    
+    <div  id="top">
+        <a href="#"></a>
+        <i class="fa-sharp fa-solid fa-arrow-up"></i></a>
+    </div>
+    
+</body>
+</html>
